@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/photo_2024-07-30_00-34-45-Photoroom.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make sure the body takes the full viewport height */
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.5); 
+    border-radius: 8px; 
+    padding: 20px; 
+}
+.contact-div span{
+    font-size: 25px;
+}
