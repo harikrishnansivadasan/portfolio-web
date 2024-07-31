@@ -18,11 +18,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 80%;
+    height: auto;
     background: rgba(255, 255, 255, 0.5); 
     border-radius: 8px; 
     padding: 20px; 
 }
 .contact-div span{
     font-size: 25px;
+}
+.head-content a{
+    font-weight: 700;
 }
